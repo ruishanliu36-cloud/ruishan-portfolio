@@ -255,7 +255,7 @@ h3 {
   place-items: center;
   border-radius: 22px;
   background:
-    url("assets/portrait.jpeg") center / cover no-repeat;
+    url("portrait.jpeg") center / cover no-repeat;
 }
 
 .portrait-card p {
@@ -429,7 +429,7 @@ h3 {
 }
 
 .mockup.warm {
-  background: url("assets/figma-cozycats.png") center / cover no-repeat;
+  background: url("figma-cozycats.png") center / cover no-repeat;
   background-color: #f4eeee;
 }
 .phone {
@@ -475,7 +475,7 @@ h3 {
 }
 
 .game-preview {
-  background: url("assets/replit-catch-the-fruit.png") center / 82% auto no-repeat !important;
+  background: url("replit-catch-the-fruit.png") center / 82% auto no-repeat !important;
   background-color: #f8f3f6;
 }
 
@@ -516,7 +516,7 @@ h3 {
   display: grid;
   padding: 28px;
   place-items: center;
-  background: url("assets/scratch-catch-the-ball.png") center / cover no-repeat;
+  background: url("scratch-catch-the-ball.png") center / cover no-repeat;
 }
 
 .scratch-window {
@@ -588,7 +588,7 @@ h3 {
   border-radius: 24px;
   background:
     linear-gradient(rgba(255,255,255,.15), rgba(255,255,255,.15)),
-    url("assets/art-1.jpg") center/contain no-repeat,
+    url("art-1.jpg") center/contain no-repeat,
     linear-gradient(135deg, #f4c3d4, #c8bbff);
   color: rgba(32,26,36,.6);
   font-weight: 700;
@@ -601,43 +601,43 @@ h3 {
 
 .art-placeholder.art-2 {
   background:
-    url("assets/art-2.jpg") center/contain no-repeat,
+    url("art-2.jpg") center/contain no-repeat,
     linear-gradient(135deg, #ffd4df, #fff1e6);
 }
 
 .art-placeholder.art-3 {
   background:
-    url("assets/art-3.jpg") center/contain no-repeat,
+    url("art-3.jpg") center/contain no-repeat,
     linear-gradient(135deg, #c9eaf4, #e4f6ff);
 }
 
 .art-placeholder.art-4 {
   background:
-    url("assets/art-4.jpg") center/contain no-repeat,
+    url("art-4.jpg") center/contain no-repeat,
     linear-gradient(135deg, #d9ccff, #ffd0e5);
 }
 
 .art-placeholder.art-5{
   background:
-    url("assets/art-5.jpg") center/contain no-repeat,
+    url("art-5.jpg") center/contain no-repeat,
     linear-gradient(135deg,#f4c3d4,#c8bbff);
 }
 
 .art-placeholder.art-6{
   background:
-    url("assets/art-6.jpg") center/contain no-repeat,
+    url("art-6.jpg") center/contain no-repeat,
     linear-gradient(135deg,#ffd4df,#fff1e6);
 }
 
 .art-placeholder.art-7{
   background:
-    url("assets/art-7.jpg") center/contain no-repeat,
+    url("art-7.jpg") center/contain no-repeat,
     linear-gradient(135deg,#c9eaf4,#e4f6ff);
 }
 
 .art-placeholder.art-8{
   background:
-    url("assets/art-8.jpg") center/contain no-repeat,
+    url("art-8.jpg") center/contain no-repeat,
     linear-gradient(135deg,#d9ccff,#ffd0e5);
 }
 
@@ -1041,25 +1041,25 @@ footer {
 }
 .art-placeholder.art-1 {
   background:
-    url("assets/art-1.jpg") center / contain no-repeat;
+    url("art-1.jpg") center / contain no-repeat;
   background-color: #f3d8ee;
 }
 
 .art-placeholder.art-2 {
   background:
-    url("assets/art-2.jpg") center / contain no-repeat;
+    url("art-2.jpg") center / contain no-repeat;
   background-color: #ffe2e5;
 }
 
 .art-placeholder.art-3 {
   background:
-    url("assets/art-3.jpg") center / contain no-repeat;
+    url("art-3.jpg") center / contain no-repeat;
   background-color: #d9f3fb;
 }
 
 .art-placeholder.art-4 {
   background:
-    url("assets/art-4.jpg") center / contain no-repeat;
+    url("art-4.jpg") center / contain no-repeat;
   background-color: #e6d8ff;
 }
 .art-grid {
@@ -1129,22 +1129,22 @@ footer {
 }
 
 .art-grid .art-1 {
-  background-image: url("assets/art-1.jpg") !important;
+  background-image: url("art-1.jpg") !important;
   background-color: #f3d8ee !important;
 }
 
 .art-grid .art-2 {
-  background-image: url("assets/art-2.jpg") !important;
+  background-image: url("art-2.jpg") !important;
   background-color: #ffe2e5 !important;
 }
 
 .art-grid .art-3 {
-  background-image: url("assets/art-3.jpg") !important;
+  background-image: url("art-3.jpg") !important;
   background-color: #d9f3fb !important;
 }
 
 .art-grid .art-4 {
-  background-image: url("assets/art-4.jpg") !important;
+  background-image: url("art-4.jpg") !important;
   background-color: #e6d8ff !important;
 }
 
@@ -1174,20 +1174,20 @@ footer {
     min-height: 420px !important;
   }
   .art-grid .art-5 {
-  background-image: url("assets/art-5.jpg") !important;
+  background-image: url("art-5.jpg") !important;
   background-color: #f3d8ee !important;
 }
 .art-grid .art-6 {
-  background-image: url("assets/art-6.jpg") !important;
+  background-image: url("art-6.jpg") !important;
   background-color: #d9f3fb !important;
 }
 
 .art-grid .art-7 {
-  background-image: url("assets/art-7.jpg") !important;
+  background-image: url("art-7.jpg") !important;
   background-color: #e6d8ff !important;
 }
 .art-grid .art-8 {
-  background-image: url("assets/art-8.jpg") !important;
+  background-image: url("art-8.jpg") !important;
   background-color: #f3d8ee !important;
 }
 }
