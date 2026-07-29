@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Scratch Case Study | Ruishan Liu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="case-study-page">
+
+  <header class="site-header">
+    <a class="logo" href="index.html">RL<span>.</span></a>
+
+    <nav class="nav-links">
+      <a href="index.html#work">Projects</a>
+      <a href="index.html#art">Art</a>
+      <a href="index.html#contact">Contact</a>
+
+      <a
+        class="nav-button"
+        href="assets/Ruishan-Liu-Resume.pdf"
+        target="_blank"
+        rel="noopener"
+      >
+        Resume
+      </a>
+    </nav>
+  </header>
+
+  <main class="case-study-main">
+
+    <section class="case-study-hero">
+      <a class="back-link" href="index.html#work">← Back to projects</a>
+
+      <p class="eyebrow">Scratch · Interactive Game Design</p>
+
+      <h1>Catch the Ball</h1>
+
+      <p class="case-study-intro">
+        An interactive Scratch game in which players move a bowl with the
+        arrow keys to catch a falling ball.
+      </p>
+
+      <div class="case-study-tags">
+        <span>Scratch</span>
+        <span>Event-driven logic</span>
+        <span>Keyboard controls</span>
+        <span>Collision detection</span>
+      </div>
+
+      <img
+        class="case-study-cover"
+        src="assets/scratch-catch-the-ball.png"
+        alt="Scratch editor showing code blocks, a bowl, a falling ball, and the game stage"
+      />
+    </section>
+
+    <section class="case-study-section">
+      <div>
+        <p class="eyebrow">Overview</p>
+        <h2>The challenge</h2>
+      </div>
+
+      <div class="case-study-text">
+        <p>
+          I wanted to create a simple game that was easy to understand
+          but still required timing and coordination.
+        </p>
+
+        <p>
+          The player moves a bowl from side to side while trying to catch
+          a falling ball before it reaches the ground.
+        </p>
+      </div>
+    </section>
+
+    <section class="case-study-section">
+      <div>
+        <p class="eyebrow">My role</p>
+        <h2>What I programmed</h2>
+      </div>
+
+      <div class="case-study-text">
+        <ul class="case-study-list">
+          <li>Left and right arrow-key controls</li>
+          <li>Sprite movement across the stage</li>
+          <li>Collision detection between the bowl and ball</li>
+          <li>Reset logic after each round</li>
+          <li>Sound and costume changes</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="case-study-section">
+      <div>
+        <p class="eyebrow">Process</p>
+        <h2>How I built it</h2>
+      </div>
+
+      <div class="process-grid">
+        <article>
+          <span>01</span>
+          <h3>Plan the interaction</h3>
+          <p>
+            I decided that the player would control a bowl while a ball
+            moved downward from the top of the stage.
+          </p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h3>Program movement</h3>
+          <p>
+            I used keyboard events so the bowl moves left or right when
+            the corresponding arrow key is pressed.
+          </p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h3>Add collision logic</h3>
+          <p>
+            I created a condition that checks whether the ball touches
+            the bowl and responds when a catch happens.
+          </p>
+        </article>
+
+        <article>
+          <span>04</span>
+          <h3>Reset the round</h3>
+          <p>
+            After a catch or miss, the ball returns to its starting
+            position so the player can continue.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="case-study-section">
+      <div>
+        <p class="eyebrow">Challenge</p>
+        <h2>What was difficult</h2>
+      </div>
+
+      <div class="case-study-text">
+        <p>
+          One challenge was making the movement feel responsive while
+          keeping the bowl inside the boundaries of the stage.
+        </p>
+
+        <p>
+          I also had to make sure the game correctly detected when the
+          bowl and ball touched.
+        </p>
+      </div>
+    </section>
+
+    <section class="case-study-section">
+      <div>
+        <p class="eyebrow">Reflection</p>
+        <h2>What I learned</h2>
+      </div>
+
+      <div class="case-study-text">
+        <p>
+          This project helped me understand how events, loops, conditions,
+          coordinates, and sprite interactions work together in Scratch.
+        </p>
+
+        <p>
+          In a future version, I would add score tracking, levels,
+          increasing speed, and more visual feedback.
+        </p>
+      </div>
+    </section>
+
+    <section class="case-study-cta">
+      <h2>Play the project</h2>
+
+      <p>Open the game on Scratch.</p>
+
+      <a
+        class="button primary"
+        href="https://scratch.mit.edu/projects/1186668516/"
+        target="_blank"
+        rel="noopener"
+      >
+        Play on Scratch
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Designed and coded by Ruishan Liu.</p>
+    <p><a href="index.html">Return home</a></p>
+  </footer>
+
+</body>
+</html>
