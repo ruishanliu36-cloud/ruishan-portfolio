@@ -1179,10 +1179,15 @@ footer {
   .art-grid .art-placeholder {
     min-height: 420px !important;
   }
-  .art-grid .art-5 {
+}
+
+/* Additional artwork */
+
+.art-grid .art-5 {
   background-image: url("assets/art-5.jpg") !important;
   background-color: #f3d8ee !important;
 }
+
 .art-grid .art-6 {
   background-image: url("assets/art-6.jpg") !important;
   background-color: #d9f3fb !important;
@@ -1192,12 +1197,13 @@ footer {
   background-image: url("assets/art-7.jpg") !important;
   background-color: #e6d8ff !important;
 }
+
 .art-grid .art-8 {
   background-image: url("assets/art-8.jpg") !important;
   background-color: #f3d8ee !important;
 }
+
 .art-grid .art-9 {
   background-image: url("assets/art-9.jpg") !important;
-  background-color:#201a24 !important;
-}
+  background-color: #f3d8ee !important;
 }
