@@ -609,6 +609,36 @@ h3 {
     linear-gradient(135deg,#f4c3d4,#c8bbff);
 }
 
+.art-placeholder.art-1{
+  background:
+  url("art-1.jpg") center/contain no-repeat,
+linear-gradient(135deg,#f4c3d4,#c8bbff);
+}
+
+.art-placeholder.art-4{
+  background:
+  url("art-4.jpg") center/contain no-repeat,
+  linear-gradient(135deg,#ffd4df,#fff1e6);
+}
+
+.art-placeholder.art-5{
+  background:
+  url("art-5.jpg") center/contain no-repeat,
+  linear-gradient(135deg,#c9eaf4,#e4f6ff);
+}
+
+.art-placeholder.art-7{
+  background:
+  url("art-7.jpg") center/contain no-repeat,
+  linear-gradient(135deg,#f4c3d4,#c8bbff);
+}
+
+.art-placeholder.art-8{
+  background:
+  url("art-8.jpg") center/contain no-repeat,
+  linear-gradient(135deg,#ffd4df,#fff1e6);
+}
+
 figcaption {
   padding: 12px 5px 0;
   color: var(--muted);
