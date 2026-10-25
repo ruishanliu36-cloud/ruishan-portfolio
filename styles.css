@@ -609,18 +609,6 @@ h3 {
     linear-gradient(135deg,#f4c3d4,#c8bbff);
 }
 
-.art-placeholder.art-1{
-  background:
-  url("art-1.jpg") center/contain no-repeat,
-linear-gradient(135deg,#f4c3d4,#c8bbff);
-}
-
-.art-placeholder.art-4{
-  background:
-  url("art-4.jpg") center/contain no-repeat,
-  linear-gradient(135deg,#ffd4df,#fff1e6);
-}
-
 .art-placeholder.art-5{
   background:
   url("art-5.jpg") center/contain no-repeat,
@@ -631,12 +619,6 @@ linear-gradient(135deg,#f4c3d4,#c8bbff);
   background:
   url("art-7.jpg") center/contain no-repeat,
   linear-gradient(135deg,#f4c3d4,#c8bbff);
-}
-
-.art-placeholder.art-8{
-  background:
-  url("art-8.jpg") center/contain no-repeat,
-  linear-gradient(135deg,#ffd4df,#fff1e6);
 }
 
 figcaption {
