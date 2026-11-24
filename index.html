@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3d2" />
   <script type="importmap">
   {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/","@pixiv/three-vrm":"https://cdn.jsdelivr.net/npm/@pixiv/three-vrm@3/lib/three-vrm.module.min.js"}}
   </script>
@@ -222,14 +222,14 @@
         <figure class="art-tile">
           <div class="vrm-viewer" data-model="character-1.vrm">
             <button class="button primary vrm-load" type="button">Explore in 3D</button>
-            <p class="vrm-status" role="status"></p>
+            <p class="vrm-status" role="status">Preparing 3D character…</p>
           </div>
           <figcaption><h3>Character 01</h3><p>Created in VRoid Studio. Drag to rotate and pinch or scroll to zoom.</p></figcaption>
         </figure>
         <figure class="art-tile">
           <div class="vrm-viewer" data-model="character-2.vrm">
             <button class="button primary vrm-load" type="button">Explore in 3D</button>
-            <p class="vrm-status" role="status"></p>
+            <p class="vrm-status" role="status">Preparing 3D character…</p>
           </div>
           <figcaption><h3>Character 02</h3><p>Created in VRoid Studio. Drag to rotate and pinch or scroll to zoom.</p></figcaption>
         </figure>
@@ -280,6 +280,6 @@
   </footer>
 
   <script src="script.js"></script>
-  <script type="module" src="vroid-viewer.js"></script>
+  <script type="module" src="vroid-viewer.js?v=3d2"></script>
 </body>
 </html>

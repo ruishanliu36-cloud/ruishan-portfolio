@@ -1134,3 +1134,7 @@ footer {
 .vrm-status { padding: 12px; text-align: center; color: var(--muted); }
 .vrm-status:empty { display: none; }
 @media(max-width:700px){ .vrm-viewer { height: 420px; } }
+
+.vrm-load[hidden] { display: none !important; }
+.vrm-viewer { min-height: 420px; }
+.vrm-status { position: relative; z-index: 1; }

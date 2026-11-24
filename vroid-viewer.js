@@ -1,16 +1,16 @@
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { VRMLoaderPlugin, VRMUtils } from '@pixiv/three-vrm';
+const libraries = Promise.all([import('three'), import('three/addons/loaders/GLTFLoader.js'), import('three/addons/controls/OrbitControls.js'), import('@pixiv/three-vrm')]);
+libraries.catch(() => {});
 
 for (const container of document.querySelectorAll('.vrm-viewer')) {
   const button = container.querySelector('.vrm-load');
   const status = container.querySelector('.vrm-status');
   button.addEventListener('click', async () => {
+    if (button.disabled || button.hidden) return;
     button.disabled = true;
     status.textContent = 'Loading character…';
     let renderer;
     try {
+      const [THREE, { GLTFLoader }, { OrbitControls }, { VRMLoaderPlugin, VRMUtils }] = await libraries;
       const scene = new THREE.Scene();
       const camera = new THREE.PerspectiveCamera(35, 1, 0.01, 100);
       renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
@@ -66,7 +66,14 @@ for (const container of document.querySelectorAll('.vrm-viewer')) {
       console.error(error);
       renderer?.dispose();
       button.disabled = false;
-      status.textContent = 'Could not load the character. Please try again.';
+      status.textContent = 'Could not load character: ' + (error.message || 'Unknown error');
     }
   });
+  const observer = new IntersectionObserver(entries => {
+    if (entries.some(entry => entry.isIntersecting)) {
+      observer.disconnect();
+      button.click();
+    }
+  }, { rootMargin: '150px' });
+  observer.observe(container);
 }
