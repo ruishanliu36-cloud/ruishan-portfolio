@@ -1138,3 +1138,21 @@ footer {
 .vrm-load[hidden] { display: none !important; }
 .vrm-viewer { min-height: 420px; }
 .vrm-status { position: relative; z-index: 1; }
+
+#characters figcaption {
+  display: block !important;
+  height: auto !important;
+  overflow: visible !important;
+  padding: 20px 22px 26px !important;
+  background: white;
+}
+
+#characters figcaption p {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #6f6875 !important;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 12px !important;
+}
