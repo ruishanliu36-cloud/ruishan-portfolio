@@ -27,6 +27,14 @@ for (const container of document.querySelectorAll('.vrm-viewer')) {
       const vrm = gltf.userData.vrm;
       if (!vrm) throw new Error('Invalid VRM');
       VRMUtils.rotateVRM0(vrm);
+// Natural standing pose
+const humanoid = vrm.humanoid;
+
+humanoid.getNormalizedBoneNode('leftUpperArm').rotation.z = -1.25;
+humanoid.getNormalizedBoneNode('rightUpperArm').rotation.z = 1.25;
+
+// Slight head tilt
+humanoid.getNormalizedBoneNode('head').rotation.z = 0.06;
       scene.add(vrm.scene);
       vrm.scene.updateMatrixWorld(true);
       const bounds = new THREE.Box3().setFromObject(vrm.scene);
