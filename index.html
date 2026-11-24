@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+  {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/","@pixiv/three-vrm":"https://cdn.jsdelivr.net/npm/@pixiv/three-vrm@3/lib/three-vrm.module.min.js"}}
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -22,6 +25,7 @@
       <a href="#about">About</a>
       <a href="#work">Projects</a>
       <a href="#art">Art</a>
+        <a href="#characters">3D Design</a>
       <a href="#contact">Contact</a>
       <a class="nav-button" href="Ruishan-Liu-Resume.pdf" target="_blank" rel="noopener">Resume</a>
     </nav>
@@ -208,6 +212,30 @@
 </div>
     </section>
 
+    <section class="section" id="characters">
+      <div class="section-heading">
+        <p class="eyebrow">3D Character Design</p>
+        <h2>Bringing characters to life.</h2>
+        <p>Exploring character design, digital fashion, and visual storytelling in VRoid Studio.</p>
+      </div>
+      <div class="art-grid">
+        <figure class="art-tile">
+          <div class="vrm-viewer" data-model="character-1.vrm">
+            <button class="button primary vrm-load" type="button">Explore in 3D</button>
+            <p class="vrm-status" role="status"></p>
+          </div>
+          <figcaption><h3>Character 01</h3><p>Created in VRoid Studio. Drag to rotate and pinch or scroll to zoom.</p></figcaption>
+        </figure>
+        <figure class="art-tile">
+          <div class="vrm-viewer" data-model="character-2.vrm">
+            <button class="button primary vrm-load" type="button">Explore in 3D</button>
+            <p class="vrm-status" role="status"></p>
+          </div>
+          <figcaption><h3>Character 02</h3><p>Created in VRoid Studio. Drag to rotate and pinch or scroll to zoom.</p></figcaption>
+        </figure>
+      </div>
+    </section>
+
    <section class="contact section" id="contact">
   <div class="contact-panel reveal">
     <p class="eyebrow">Contact</p>
@@ -252,5 +280,6 @@
   </footer>
 
   <script src="script.js"></script>
+  <script type="module" src="vroid-viewer.js"></script>
 </body>
 </html>
